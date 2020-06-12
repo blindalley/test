@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2020-06-12T04:17:24.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.1.1" etag="Pm5mQ9YuBYmM0Dq0dL3T" type="github"><diagram id="7hAxt3uWAzMJnV41a0iE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-12T04:17:37.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ph3gWTQiZO9P2h1I3Mhd" version="13.1.1" type="github">
+  <diagram id="7hAxt3uWAzMJnV41a0iE" name="第 1 页">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-2" value="访问" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="pYMpbvbeLRTZXpMvh9Ib-1" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry x="0.0028" y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="110" y="80" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-3" value="账号密码" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pYMpbvbeLRTZXpMvh9Ib-1" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-4" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="50" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-6" value="get&amp;nbsp; https://gs.zufangzi.com" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="pYMpbvbeLRTZXpMvh9Ib-4" target="pYMpbvbeLRTZXpMvh9Ib-10">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="100" as="sourcePoint" />
+            <mxPoint x="110" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-7" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pYMpbvbeLRTZXpMvh9Ib-4" target="pYMpbvbeLRTZXpMvh9Ib-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="290" as="sourcePoint" />
+            <mxPoint x="130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-8" value="https://login.ke.com/authentication/authenticate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pYMpbvbeLRTZXpMvh9Ib-7">
+          <mxGeometry x="-0.119" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-9" value="https://gs.zufangzi.com/cas?ticket" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="pYMpbvbeLRTZXpMvh9Ib-4" target="pYMpbvbeLRTZXpMvh9Ib-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="390" as="sourcePoint" />
+            <mxPoint x="130" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-10" value="rpms-house" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="50" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pYMpbvbeLRTZXpMvh9Ib-10">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pYMpbvbeLRTZXpMvh9Ib-10">
+          <mxGeometry x="45" y="390" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-13" value="login服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="50" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pYMpbvbeLRTZXpMvh9Ib-13">
+          <mxGeometry x="45" y="180" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="pYMpbvbeLRTZXpMvh9Ib-13">
+          <mxGeometry x="45" y="290" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-16" value="302 到 https://login.ke.com/login?service=https://gs.zufangzi.com/cas" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pYMpbvbeLRTZXpMvh9Ib-11" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry x="0.173" y="-10" width="60" relative="1" as="geometry">
+            <mxPoint x="490" y="190" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-17" value="https://login.ke.com/login?service=https://gs.zufangzi.com/cas" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="pYMpbvbeLRTZXpMvh9Ib-4" target="pYMpbvbeLRTZXpMvh9Ib-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-18" value="登陆页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="pYMpbvbeLRTZXpMvh9Ib-14" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-19" value="返回登陆" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.1;exitY=0.351;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pYMpbvbeLRTZXpMvh9Ib-5" target="pYMpbvbeLRTZXpMvh9Ib-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="230" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-20" value="登陆成功&amp;nbsp; 302 到 https://gs.zufangzi.com/cas?ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="390" as="sourcePoint" />
+            <mxPoint x="790" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYMpbvbeLRTZXpMvh9Ib-21" value="302&amp;nbsp; https://gs.zufangzi.com" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="pYMpbvbeLRTZXpMvh9Ib-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
